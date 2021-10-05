@@ -1,0 +1,47 @@
+[    
+	{
+        "type" : "COMESTIBLE",
+        "id" : "katnips_bbq_saus",
+        "name" : "atomic moonshine",
+        "name_plural": "atomic moonshine",
+        "//" : "Properties are all roughly one-third due to being three times as strong, modified further by being radioactive hooch.",
+        "weight" : 12,
+        "color" : "green",
+        "addiction_type" : "alcohol",
+        "use_action" : "ALCOHOL_STRONG",
+        "stim" : -8,
+        "container" : "jug_plastic",
+        "comestible_type" : "DRINK",
+        "symbol" : "~",
+        "quench" : -7,
+        "healthy" : -3,
+        "addiction_potential" : 4,
+        "nutrition" : 1,
+        "description" : "Hooch that's been brewed up properly, using the heat of a plutonium reactor for that delicious radioactive flavor.",
+        "price" : 850,
+        "material" : "alcohol",
+        "volume" : 1,
+        "phase" : "liquid",
+        "charges" : 21,
+        "flags" : ["EATEN_COLD", "LEAK_ALWAYS", "RADIOACTIVE"],
+        "fun" : 3
+    },
+    {
+        "type" : "recipe",
+        "result": "katnips_bbq_saus",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "cooking",
+        "difficulty": 3,
+        "skills_required": [ "electronics", 2 ],
+        "time": 30000,
+        "batch_time_factors": [50, 4],
+        "book_learn": [ ["brewing_cookbook", 2], ["atomic_survival", 3], ["recipe_lab_elec", 2] ],
+        "qualities": [
+            { "id": "BOIL", "level": 2 },
+            { "id": "DISTILL", "level": 1 }
+        ],
+        "tools": [ [ [ "minireactor", 21 ] ] ],
+        "components": [ [ [ "wash_moonshine", 21 ] ] ]
+    }
+]

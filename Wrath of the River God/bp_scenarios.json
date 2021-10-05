@@ -1,0 +1,14 @@
+[
+{
+    "type": "scenario",
+    "name": "Gas Station by the Bridge",
+    "description": "Rumors of war with China, riots going on in other cities, some weird illness making people violent, no of it mattered to your employers. They still made you go to work and now that the world ended your plans to quit that day to become a truck driver in california have to wait.",
+    "flags": [ "SUR_START", "SUM_START" ],
+    "ident": "bridge_station",
+    "points": 0,
+    "start_name": "Gas Station",
+    "allowed_locs": [ "gas_station_bri_s" ],
+    "professions": [ "gas_man" ]
+  }
+]
+  

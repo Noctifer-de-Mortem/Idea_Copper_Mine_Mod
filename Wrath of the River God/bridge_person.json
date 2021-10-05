@@ -1,0 +1,58 @@
+[
+  {
+    "type": "faction",
+    "id": "bridge_people",
+    "name": "Bridge People",
+    "likes_u": -25,
+    "respects_u": -25,
+    "known_by_u": false,
+    "size": 25,
+    "power": 80,
+    "combat_ability": 80,
+    "food_supply": 0,
+    "wealth": 0,
+    "good": -1,
+    "strength": 1,
+    "sneak": 0,
+    "crime": 1,
+    "cult": 0,
+    "description": "Before the cataclysm they wandered the landscape looking for their next hit of heroin with nothing to their name and nothing to contribute. Afterwards, it still is the same thing. Not realizing the cataclysm even happened, they will jump you for anything of worth."
+  },
+  {
+        "type" : "npc_class",
+        "id" : "NC_BRIDGE",
+        "name" : "Bridge Person",
+        "job_description" : "I'm just looking for my next fix.",
+        "bonus_str" : { "rng" : [ 2, 4 ] },
+        "bonus_dex" : { "rng" : [ 0, 2 ] },
+		"bonus_int" : { "rng" : [ -4, -8 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "sum" : [
+                        { "dice" : [ 3, 2 ] },
+                        { "constant" : -4 }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "bashing", "bonus" : { "rng" : [ 1, 5 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 1, 5 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 1, 5 ] } }
+        ]
+  },
+  {
+    "type": "npc",
+    "id": "bridge_person",
+    "comment": "Fodder for the river god.",
+    "name_suffix": "Bridge Person",
+    "class": "NC_BRIDGE",
+    "attitude": 10,
+    "mission": 0,
+	"common" : true,
+    "chat": "TALK_DONE",
+    "faction": "bridge_people"
+  }
+]

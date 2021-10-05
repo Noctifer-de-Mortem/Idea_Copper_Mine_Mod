@@ -1,0 +1,17 @@
+[
+   {
+        "type" : "overmap_special",
+        "id" : "gas_station_bri_s",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "gas_station_bri"}
+        ],
+        "locations" : [ "land", "swamp" ],
+        "city_distance" : [10, 200],
+        "city_sizes" : [1, 16],
+        "occurrences" : [1, 1],
+        "unique" : true,
+        "required" : true, 
+        "flags" : [ "CLASSIC" ]
+    }
+]

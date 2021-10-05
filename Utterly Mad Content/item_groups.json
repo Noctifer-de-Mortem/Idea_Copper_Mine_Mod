@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mansion_books",
+    "type": "item_group",
+    "//": "Those rich mansion people have all sorts of weird books.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "chicken_book", "prob": 30 }
+    ]
+  },
+  {
+    "id": "exotic_books",
+    "type": "item_group",
+    "//": "These are books that are hard to find or esoteric, mostly.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "chicken_book", "prob": 30 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "religious_books",
+    "//": "Any religious book",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "chicken_book", "prob": 1 }
+    ]
+  }
+]
+]

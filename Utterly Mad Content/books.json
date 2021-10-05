@@ -1,0 +1,18 @@
+[
+ {
+    "id": "chicken_book",
+    "type": "BOOK",
+    "name": "CHICken BOOK",
+    "description": "This is a hardcovered, leather bound picture book containing 80+ high quality glossy photographs of... Chickens. Despite its seeming inanity, you have the feeling it might be quite valuable to someone out there.",
+    "weight": 380,
+    "volume": 5,
+    "price": 993600,
+    "material": [ "paper", "leather" ],
+    "symbol": "?",
+    "color": "dark_gray",
+    "time": 10,
+    "chapters": 86,
+    "fun": 50,
+    "flags": [ "INSPIRATIONAL" ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "start_location",
+    "id": "gas_station_bri_s",
+    "name": "Gas Station",
+    "terrain": [ "gas_station_bri" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
+  }
+]

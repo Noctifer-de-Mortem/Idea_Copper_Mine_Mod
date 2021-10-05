@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "copper_idea_mine",
+    "name": "Copper Idea Mine",
+    "authors": [ "Noctifer-de-Mortem" ],
+    "maintainers": [ "Noctifer-de-Mortem" ],
+    "description": "A collection of ideas that might not be worthy of going on shark tank but should at least appear in baby shark.",
+    "category": "rebalance",
+    "dependencies": [ "dda", "Cata++", "Arcana" ],
+    "path": ""
+  }
+]

@@ -1,0 +1,48 @@
+[
+{
+        "type" : "martial_art",
+        "id" : "style_bam",
+        "name" : "Fuckin' Bam!",
+        "description" : "Years of bamming both cannine and bridge person alike have made you good at combat.",
+		"initiate": [
+           "Channel your rage and everything now looks like a bridge person. It's time to fucking bam!"
+       ],
+        "arm_block" : -1,
+        "leg_block" : -1,
+        "static_buffs" : [
+            {
+                "id" : "bam_bonus",
+                "name" : "No Guard Bamming",
+                "unarmed_allowed" : true,
+				"melee_allowed" : true,
+                "min_melee" : 0,
+				"bonus_dodges" : -1,
+                "bonus_blocks" : -1,
+                "flat_bonuses" : [{ "stat": "damage", "type": "bash", "scale": 2 }, { "stat": "damage", "type": "stab", "scale": 2 }, { "stat": "damage", "type": "cut", "scale": 2 }],
+                "description" : "No blocking, no bluffing, all bam!"
+            }
+        ],
+        "techniques" : [
+            "tec_brawl_feint_melee",
+			"tec_brawl_feint_unarmed",
+			"tec_brawl_counter_melee",
+			"tec_brawl_counter_unarmed",
+            "tec_brawl_power",
+            "tec_brawl_trip",
+			"tec_karate_rapid", 
+			"tec_karate_precise"
+        ]
+    },
+  {
+    "type": "mutation",
+    "id": "MARTIAL_ARTS_BAM",
+    "name": "Fuckin' Bammer",
+    "points": 3,
+    "description": "Years of bamming both cannine and bridge person alike have made you good at combat.",
+    "initial_ma_styles": [
+      "style_bam"
+    ],
+    "valid": false
+  }
+] 
+  

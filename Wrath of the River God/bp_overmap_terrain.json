@@ -1,0 +1,13 @@
+[
+   {
+	"id": "gas_station_bri",
+    "type": "overmap_terrain",
+    "name": "gas station",
+    "sym": "^",
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE", "SIDEWALK" ]
+	}
+]
